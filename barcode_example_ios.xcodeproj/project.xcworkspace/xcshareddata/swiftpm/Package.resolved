@@ -1,0 +1,15 @@
+{
+  "originHash" : "f2c8800445b99182abd8120109750e8bd829d4dee8e148d984c96cab8e94a88a",
+  "pins" : [
+    {
+      "identity" : "zxing-cpp",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zxing-cpp/zxing-cpp.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "a864dc883d03652d854ed8232a2e9fe4585337d0"
+      }
+    }
+  ],
+  "version" : 3
+}

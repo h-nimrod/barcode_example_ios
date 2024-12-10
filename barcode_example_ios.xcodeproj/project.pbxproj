@@ -14,6 +14,7 @@
 		3FDC431E2D08545600C79EBC /* barcode_example_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC431D2D08545600C79EBC /* barcode_example_iosTests.swift */; };
 		3FDC43282D08545600C79EBC /* barcode_example_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC43272D08545600C79EBC /* barcode_example_iosUITests.swift */; };
 		3FDC432A2D08545600C79EBC /* barcode_example_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC43292D08545600C79EBC /* barcode_example_iosUITestsLaunchTests.swift */; };
+		3FDC43382D08574800C79EBC /* ZXingCpp in Frameworks */ = {isa = PBXBuildFile; productRef = 3FDC43372D08574800C79EBC /* ZXingCpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FDC43382D08574800C79EBC /* ZXingCpp in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = barcode_example_ios;
+			packageProductDependencies = (
+				3FDC43372D08574800C79EBC /* ZXingCpp */,
+			);
 			productName = barcode_example_ios;
 			productReference = 3FDC43092D08545400C79EBC /* barcode_example_ios.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 3FDC43002D08545400C79EBC;
+			packageReferences = (
+				3FDC43362D08574800C79EBC /* XCRemoteSwiftPackageReference "zxing-cpp" */,
+			);
 			productRefGroup = 3FDC430A2D08545400C79EBC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -430,6 +438,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +468,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -588,6 +598,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3FDC43362D08574800C79EBC /* XCRemoteSwiftPackageReference "zxing-cpp" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zxing-cpp/zxing-cpp.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3FDC43372D08574800C79EBC /* ZXingCpp */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3FDC43362D08574800C79EBC /* XCRemoteSwiftPackageReference "zxing-cpp" */;
+			productName = ZXingCpp;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3FDC43012D08545400C79EBC /* Project object */;
 }

@@ -15,6 +15,8 @@
 		3FDC43282D08545600C79EBC /* barcode_example_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC43272D08545600C79EBC /* barcode_example_iosUITests.swift */; };
 		3FDC432A2D08545600C79EBC /* barcode_example_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC43292D08545600C79EBC /* barcode_example_iosUITestsLaunchTests.swift */; };
 		3FDC43382D08574800C79EBC /* ZXingCpp in Frameworks */ = {isa = PBXBuildFile; productRef = 3FDC43372D08574800C79EBC /* ZXingCpp */; };
+		3FDC433A2D0858A200C79EBC /* BarcodeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC43392D0858A200C79EBC /* BarcodeExtension.swift */; };
+		3FDC433C2D0858C800C79EBC /* BarcodeResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC433B2D0858C800C79EBC /* BarcodeResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		3FDC43232D08545600C79EBC /* barcode_example_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = barcode_example_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FDC43272D08545600C79EBC /* barcode_example_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barcode_example_iosUITests.swift; sourceTree = "<group>"; };
 		3FDC43292D08545600C79EBC /* barcode_example_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barcode_example_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3FDC43392D0858A200C79EBC /* BarcodeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeExtension.swift; sourceTree = "<group>"; };
+		3FDC433B2D0858C800C79EBC /* BarcodeResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				3FDC430E2D08545400C79EBC /* ContentView.swift */,
 				3FDC43102D08545600C79EBC /* Assets.xcassets */,
 				3FDC43122D08545600C79EBC /* Preview Content */,
+				3FDC43392D0858A200C79EBC /* BarcodeExtension.swift */,
+				3FDC433B2D0858C800C79EBC /* BarcodeResult.swift */,
 			);
 			path = barcode_example_ios;
 			sourceTree = "<group>";
@@ -266,7 +272,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FDC430F2D08545400C79EBC /* ContentView.swift in Sources */,
+				3FDC433C2D0858C800C79EBC /* BarcodeResult.swift in Sources */,
 				3FDC430D2D08545400C79EBC /* barcode_example_iosApp.swift in Sources */,
+				3FDC433A2D0858A200C79EBC /* BarcodeExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,23 +1,25 @@
 # barcode_example_ios
 
-SwiftUIで作成したサンプルアプリで、12桁または13桁の数字を入力するとEAN13形式のバーコードを生成・表示します。
+This is a sample application built with SwiftUI that generates and displays an EAN13 barcode when a 12-digit or 13-digit number is entered.
 
-## 機能概要
 
-- **EAN13バーコードの生成**
-  12桁または13桁の数字を入力すると、自動的にEAN13形式のバーコードを生成します。
-- **リアルタイム更新**
-  入力欄に数字を変更するたびに、バーコードが即時更新されます。
+## Features
 
-![スクリーンショット](fig/demo.gif)
+- **EAN13 Barcode Generation**
+  Automatically generates an EAN13 barcode when a 12-digit or 13-digit number is entered.
 
-## 使用ライブラリ
+- **Real-time Updates**
+  The barcode updates immediately whenever the number in the input field is changed.
 
-このアプリでは、[zxing-cpp](https://github.com/zxing-cpp/zxing-cpp) ライブラリを利用してバーコードの生成を実現しています。
-zxing-cppは、高性能かつ柔軟なバーコード生成・読み取り機能を提供するC++ライブラリで、多くのバーコード形式に対応しています。
+![scheenshot](fig/demo.gif)
 
-## 動作環境
+## Used Libraries
 
-- **開発環境**: Xcode 15.4
-- **言語**: Swift, SwiftUI
+This app uses the [zxing-cpp](https://github.com/zxing-cpp/zxing-cpp) library to generate barcodes.
+zxing-cpp is a high-performance and versatile C++ library for barcode generation and decoding, supporting a wide range of barcode formats.
+
+## Development Environment
+
+- **Development Environment**: Xcode 15.4
+- **Languages**: Swift, SwiftUI
 

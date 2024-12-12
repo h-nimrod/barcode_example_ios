@@ -11,7 +11,7 @@ This is a sample application built with SwiftUI that generates and displays an E
 - **Real-time Updates**
   The barcode updates immediately whenever the number in the input field is changed.
 
-![scheenshot](fig/demo.gif)
+<img src="fig/demo.gif" alt="Screenshot" width="300"/>
 
 ## Used Libraries
 
